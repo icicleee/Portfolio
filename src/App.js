@@ -11,6 +11,7 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
+  HashRouter
 } from "react-router-dom";
 
 
@@ -18,7 +19,7 @@ function App() {
 
   return (
     <>
-    <Router>
+    <HashRouter>
 
     <Routes>
           <Route exact path="/" element={<MyHome/>}></Route>
@@ -30,7 +31,7 @@ function App() {
         <Linker />
       </div>
 
-    </Router>
+    </HashRouter>
       
     </>
   );

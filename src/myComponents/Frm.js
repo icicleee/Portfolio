@@ -32,7 +32,7 @@ export const Frm = ({ position, string }) => {
 
   function sendEmail(e){
     e.preventDefault();
-    // emailjs.sendForm('service_c8wu0hi','template_3mbc0mn',e.target,'Vzgw9EW2XjjqmJtm0')
+    emailjs.sendForm('service_c8wu0hi','template_3mbc0mn',e.target,'Vzgw9EW2XjjqmJtm0')
   }
 
   // let register = (e)=>{

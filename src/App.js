@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-    <HashRouter>
+    <Router>
 
     <Routes>
           <Route exact path="/" element={<MyHome/>}></Route>
@@ -31,7 +31,7 @@ function App() {
         <Linker />
       </div>
 
-    </HashRouter>
+    </Router>
       
     </>
   );
